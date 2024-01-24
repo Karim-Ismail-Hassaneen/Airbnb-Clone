@@ -4,7 +4,7 @@ import React from 'react'
  type ExploreCardData = ExploreItem 
 const ExploreCard = ({ img, location, distance }: ExploreCardData) => {
   return (
-    <div className='flex items-center m-2 mt-5 space-x-4 cursor-pointer hover:bg-gray-100 hover:scale-105 transition transform duration-200 ease-out'>
+    <div className='flex items-center m-2 mt-5 space-x-4 cursor-pointer hover:bg-gray-100 hoverTransform'>
       <div className='relative w-16 h-16'>
         <Image src={img} alt='ExploreCard-Img' fill />
       </div>
