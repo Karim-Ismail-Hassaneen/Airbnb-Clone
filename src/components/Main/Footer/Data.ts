@@ -1,4 +1,6 @@
-export const links = [
+import { Links } from "@/types/dataTypes";
+
+export const footerData:Links = [
     {
       title: 'ABOUT',
       links: [

@@ -1,12 +1,14 @@
+import Navbar from "@/components/Header/Navbar";
+import Footer from "@/components/Main/Footer/Footer";
 import Main from "@/components/Main/Main";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-      <h1>
-        <Main />
-      </h1>
-    </main>
+    <>
+      <Navbar />
+      <main>
+          <Main />
+      </main>
+    </>
   );
 }
